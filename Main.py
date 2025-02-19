@@ -8,7 +8,7 @@ TELEGRAM_CHAT_ID = "8027632810"
 
 bot = telebot.TeleBot(TELEGRAM_BOT_TOKEN)
 
-DERIV_API_URL = "wss://ws.deriv.com/websockets/v3"
+DERIV_API_URL = "www.deriv.com"
 
 def send_signal(message):
     bot.send_message(TELEGRAM_CHAT_ID, message)
@@ -37,7 +37,7 @@ def calculate_rsi(prices, period=14):
     return rsi
 
 ws = websocket.WebSocket()
-ws.connect(www.deriv.com)
+ws.connect(DERIV_API_URL)
 
 request_data = {
     "ticks_history": "R_75",
