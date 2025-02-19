@@ -2,7 +2,6 @@ import requests
 import telebot
 import websocket
 import json
-import pandas as pd
 
 TELEGRAM_BOT_TOKEN = "7634325376:AAHFqGzi6w5PnLqSd-pF_SCC1eXfuy-cjiA"
 TELEGRAM_CHAT_ID = "8027632810"
