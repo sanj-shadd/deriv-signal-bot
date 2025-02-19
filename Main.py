@@ -37,7 +37,7 @@ def calculate_rsi(prices, period=14):
     return rsi
 
 ws = websocket.WebSocket()
-ws.connect(DERIV_API_URL)
+ws.connect(www.deriv.com)
 
 request_data = {
     "ticks_history": "R_75",
